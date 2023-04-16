@@ -1,0 +1,50 @@
+body{
+  background-image: radial-gradient(  rgba(9,29,85,1) 0%, rgba(0,0,0,1) 90% );
+}
+
+h2{
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: 500;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.photo-container h2{
+    display: grid;
+    justify-self: center;
+}
+
+.photo-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  padding:3em 3em 3em 3em;
+}
+
+.photo {
+  width: 20em;
+  height: 20em;
+  border: 5px solid rgb(197, 173, 35);
+  border-radius: 100%;
+  background-color: rgb(225, 228, 230);
+}
+
+.label-input{
+  background-color: rgb(6, 81, 124);
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.input {
+    display: flex;
+    justify-content: end;
+    padding: 2em 0em 0em 0em;
+    color: aliceblue;
+}
